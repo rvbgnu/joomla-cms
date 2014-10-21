@@ -14,13 +14,14 @@
 		<folder>helper</folder>
 	</files>
 	<languages>
-		<language tag="en-GB">language/en-GB.plg_content_linkprotect.ini</language>
-		<language tag="en-GB">language/en-GB.plg_content_linkprotect.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_linkprotect.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_linkprotect.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
 			<fieldset name="basic"
-				addfiledpath="/administrator/components/com_content/models/fields">
+				addfieldpath="/administrator/components/com_content/models/fields">
+
 				<field
 					name="warning_page"
 					type="modal_article"
@@ -34,7 +35,7 @@
 					name="new_window"
 					type="radio"
 					default="1"
-					clas="btn-group btn-group-yesno"
+					class="btn-group btn-group-yesno"
 					label="PLG_CONTENT_LINKPROTECT_NEWTAB_LABEL"
 					description="PLG_CONTENT_LINKPROTECT_NEWTAB_DESC">
 					<option value="0">JNO</option>	
