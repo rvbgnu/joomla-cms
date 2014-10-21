@@ -43,7 +43,7 @@ class PlgContentLinkprotect extends JPlugin
 		$parts = explode(".", $context);
 		if ($parts[0] != "com_content") // To make sure it is not run any where it is not supposed to be
 		{
-			return;
+			return; // Same as return true
 		}
 		
 		if (stripos($article->text, '{linkprotect=off}') === true)

@@ -44,6 +44,7 @@ class LinkProtectHelper
 	 * Function to replace external link on the exit page
 	 * @param object $article		The content item
 	 * @param string $external		The encoded external URL link
+	 * Return is directly in the instance of $article->text
 	 */
 	public function leaveSite($article, $external)
 	{

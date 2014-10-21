@@ -15,8 +15,8 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'joomla-cms_staging_JBS_Test_JD101';
-	public $dbprefix = 'c2lnf_';
+	public $db = 'joomla-cms_staging_JBS_Brochure_JD101';
+	public $dbprefix = 'kodfj_';
 	public $live_site = '';
 	public $secret = 'qheOV6Zw2GGHQKis';
 	public $gzip = '0';
